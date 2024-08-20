@@ -277,11 +277,10 @@ article.active {
 
 .content-card {
   position: relative;
-  /* background: var(--border-gradient-onyx); */
+
   padding: 15px;
   padding-top: 45px;
   border-radius: 14px;
-  box-shadow: var(--shadow-2);
   cursor: pointer;
   z-index: 1;
 }
@@ -553,10 +552,8 @@ main {
 
 .service-item {
   position: relative;
-  /* background: var(--border-gradient-onyx); */
   padding: 20px;
   border-radius: 14px;
-  box-shadow: var(--shadow-2);
   z-index: 1;
 }
 
@@ -619,7 +616,7 @@ main {
   transform: translate(15px, -25px);
   background:#333E83;
   border-radius: 14px;
-  box-shadow: var(--shadow-1);
+  /* box-shadow: var(--shadow-1); */
 }
 
 .testimonials-item-title { margin-bottom: 7px; }
@@ -691,7 +688,7 @@ main {
   margin: 15px 12px;
   border: 1px solid var(--jet);
   border-radius: 14px;
-  box-shadow: var(--shadow-5);
+  /* box-shadow: var(--shadow-5); */
   transform: scale(1.2);
   opacity: 0;
   transition: var(--transition-1);
@@ -1761,8 +1758,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     left: auto;
     right: 0;
     width: max-content;
-    border-radius: 0 20px;
-    padding: 0 20px;
+ 
     box-shadow: none;
   }
 
